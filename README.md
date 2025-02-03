@@ -10,8 +10,7 @@ This is a simple GitHub Pages website that redirects to [Bergen Billiards](https
 - Redirects visitors to the official website.
 
 ## How to Access
-The website is live at: [https://bergenbilliards.github.io](https://bergenbilliards.github.io)  
-It automatically redirects to the main business website: [https://bergenbilliards.com](https://bergenbilliards.com)
+The website is live at: [https://bergenbilliards.com](https://bergenbilliards.com).
 
 ## Technologies Used
 - **HTML & CSS**: Used to create the structure and style the page.
