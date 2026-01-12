@@ -1141,15 +1141,9 @@ footer {
    LARGE SCREENS (1600px+)
    ======================================== */
 @media (min-width: 1600px) {
-  .menu-container,
-  .gallery-grid,
-  .events-container,
-  .proshop-container,
-  .contact-info,
-  .footer-container,
-  .leagues-container,
-  .map-container {
-    max-width: 1400px;
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
   }
 
   .hero-content h1 {
@@ -1158,6 +1152,24 @@ footer {
 
   .hero-content p {
     font-size: 1.8rem;
+  }
+
+  .menu-container,
+  .events-container,
+  .proshop-container,
+  .contact-info,
+  .footer-container,
+  .leagues-container,
+  .map-container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery-grid {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .menu h2,
@@ -1189,47 +1201,8 @@ footer {
    ULTRAWIDE SCREENS (2200px+)
    ======================================== */
 @media (min-width: 2200px) {
-  body {
-    background: #111;
-  }
-
-  .navbar {
-    max-width: 2000px;
-    margin: 0 auto;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 0 0 8px 8px;
-  }
-
-  .hero,
-  .menu,
-  .gallery,
-  .events,
-  .proshop,
-  .contact,
-  .leagues,
-  footer {
-    max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
-  }
-
-  .hero {
-    margin-top: 60px;
-    border-radius: 8px 8px 0 0;
-  }
-
-  .menu-container,
-  .gallery-grid,
-  .events-container,
-  .proshop-container,
-  .contact-info,
-  .footer-container,
-  .leagues-container,
-  .map-container {
-    max-width: 1500px;
-    padding: 0 60px;
+  .hero-content {
+    max-width: 1000px;
   }
 
   .hero-content h1 {
@@ -1238,6 +1211,20 @@ footer {
 
   .hero-content p {
     font-size: 2rem;
+  }
+
+  .menu-container,
+  .events-container,
+  .proshop-container,
+  .contact-info,
+  .footer-container,
+  .leagues-container,
+  .map-container {
+    max-width: 1600px;
+  }
+
+  .gallery-grid {
+    max-width: 1600px;
   }
 
   .menu h2,
@@ -1260,35 +1247,39 @@ footer {
   .footer-section p {
     font-size: 1.1rem;
   }
+
+  .usba-championship {
+    max-width: 1200px;
+  }
+
+  .leagues-faq {
+    max-width: 1000px;
+  }
 }
 
 /* ========================================
    4K SCREENS (2800px+)
    ======================================== */
 @media (min-width: 2800px) {
-  .hero,
-  .menu,
-  .gallery,
-  .events,
-  .proshop,
-  .contact,
-  .leagues,
-  footer {
-    max-width: 2200px;
+  .hero-content {
+    max-width: 1200px;
+  }
+
+  .hero-content h1 {
+    font-size: 5.5rem;
   }
 
   .menu-container,
-  .gallery-grid,
   .events-container,
   .proshop-container,
   .contact-info,
   .footer-container,
   .leagues-container,
   .map-container {
-    max-width: 1800px;
+    max-width: 1900px;
   }
 
-  .hero-content h1 {
-    font-size: 5.5rem;
+  .gallery-grid {
+    max-width: 1900px;
   }
 }
