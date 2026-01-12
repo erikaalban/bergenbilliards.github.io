@@ -809,6 +809,20 @@ footer {
   padding: 1.5rem 2rem;
 }
 
+.footer-info a,
+.footer-info a:link,
+.footer-info a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-info a:hover,
+.footer-info a:active {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
